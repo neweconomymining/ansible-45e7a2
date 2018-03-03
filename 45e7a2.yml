@@ -1,6 +1,6 @@
 
 ---
-# reboot.yml2
+# reboot.yml
 
 - hosts: ethos
   tasks:
