@@ -2,7 +2,7 @@
 ---
 # reboot.yml2
 
-- hosts: 45e7a2
+- hosts: ethos
   tasks:
     - name: reboot host
       shell: /sbin/shutdown -r now
