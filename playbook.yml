@@ -1,7 +1,7 @@
 ---
 # reboot.yml
 
-- hosts: ethos
+- hosts: localhost
   tasks:
     - name: reboot host
       shell: /sbin/shutdown -r now
