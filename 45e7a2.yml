@@ -2,7 +2,7 @@
 ---
 # reboot.yml
 
-- hosts: localhost
+- hosts: 45e7a2
   tasks:
     - name: reboot host
       shell: /sbin/shutdown -r now
